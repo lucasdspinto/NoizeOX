@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>NOIZEOX — POC novo site</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <div id="page">
+    <!-- camada livre: janelas de vídeo do hero flutuam sobre a página toda
+         e podem ser arrastadas para qualquer parte -->
+    <div class="hero-stage" id="heroStage"></div>
+
+    <!-- área inicial do hero (só espaçamento; os vídeos ficam na camada) -->
+    <section class="screen screen--hero"></section>
+
+    <!-- produtos em janelas de navegador -->
+    <section class="screen screen--shop">
+      <div class="stage" id="stage"></div>
+    </section>
+
+    <!-- shapes (esgotados) -->
+    <section class="screen screen--shapes">
+      <div class="stage stage--shapes" id="shapes"></div>
+    </section>
+  </div>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
